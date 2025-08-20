@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+           color: darkblue;
+            text-decoration: none;
+        }
+         a:visited{
+           color: darkslateblue;
+
+         }
+         a:active{
+
+            color: chartreuse;
+            text-decoration: underline;
+         }
+         .especia a::after{
+          content: '✐' ;
+          color: red;
+         }
+         .especia  a::before{
+           content: '✎';
+           color: red;
+         }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>link pesonalizandos</h1>
+    <ul>
+       <li class="especia"><a href="https://www.instagram.com/felip__silva_?igsh=YzF6NzE2dXR0ZTV4" target="_blank">instragra</a></li>
+        <li class="especia"><a href="http://bit.ly/3Rb6egy">canal no youtube</a></li>
+         <li class="especia"><a href="https://www.youtube.com/watch?v=Z1GQk-zCqik" target="_blank" >video de jogo </a></li>
+    </ul>
+</body>
+</html>

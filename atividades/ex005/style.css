@@ -1,0 +1,57 @@
+@charset "UTF_8";
+
+body{
+     background-color: #C7FFED;
+     text-align: justify;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+   color: #023535;
+   text-align: center;
+   
+
+
+}
+h1#solo{
+ text-align: right;
+ background-color: #008F8C;
+ 
+
+
+}
+
+h2{
+   color: rgb(21, 21, 112);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+
+}
+.basico{
+  color: #ce3b3bc0;
+
+
+}
+.inter{
+    color: #bdb76b;
+
+
+}
+.ava{
+    color: #3d8b47;
+
+}
+.destaque{
+   color: #7fff00;
+  font-weight: bold;
+}
+.back{
+  background-color:#707777 ;
+  
+
+}
