@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividades de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th,td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        col.c1{
+            background-color: darkblue;
+        }
+        col.c2{
+            background-color: #76d6be;
+        }
+       col.c3{
+          background-color: blueviolet;
+        }
+
+
+    </style>
+</head>
+<body>
+   
+    <h1>atividades de tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="c1">
+        <col class="c2" span="2" > 
+        <col class="c3">
+    
+    </colgroup>
+        <caption>cadastros</caption>
+        <tr>
+            <th>nome</th>
+            <th>sexo</th>
+            <th>idade</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+          <td>ana maria</td>
+          <td>m</td>
+          <td>22</td>
+          <td>caixa</td>
+        </tr>
+        <tr>
+            <td>cláudia de melo</td>
+            <td>m</td>
+            <td>25</td>
+            <td>programador</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>H</td>
+            <td>42</td>
+            <td>professor</td>
+        </tr>
+        <tr>
+            <td>hélio</td>
+            <td>H</td>
+            <td>24</td>
+            <td> área de T.I </td>
+                
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>miguel</td>
+            <td>H</td>
+            <td>45</td>
+            <td>tecnico de informatica</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
